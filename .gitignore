@@ -1,0 +1,18 @@
+# Arquivos compilados
+/target/
+target/
+/debug/
+debug/
+/release/
+release/
+
+# Arquivos de cache
+/cargo.lock
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Outros arquivos irrelevantes
+*.tmp
+*.log
