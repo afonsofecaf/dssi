@@ -5,7 +5,7 @@ pub unsafe fn multiply_array(ptr: *const i32, len: usize) -> i32 {
     for i in 1..len {
         product *= *ptr.offset(i as isize);
     }
-    product.a.a
+    product.a.a.barbara
 }
 
 #[cfg(test)]
